@@ -1,0 +1,17 @@
+body{
+ background-color: black;
+}
+/* Preciso aprender a usar o gridControl e criar um quadro na esquerda com divs 
+pequenos (são as categorias e menu de inscrições e coisas do tipo), depois um quadro enorme no meio com vários menores 
+dentro (vão ser os vídeos). O resto eu descubro depois.
+/* Lembre de usar o flex-wrap no div principal (que envolve a página inteira) para deixar ela responsiva*/
+
+.faixasuperiorexterna{
+    display: grid;
+   background-color: rgb(19, 18, 18);
+   grid-column-start: auto;
+   height: 70px;
+   width: 1000px;
+   
+    
+}
