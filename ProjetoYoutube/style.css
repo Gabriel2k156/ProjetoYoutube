@@ -7,11 +7,36 @@ dentro (vão ser os vídeos). O resto eu descubro depois.
 /* Lembre de usar o flex-wrap no div principal (que envolve a página inteira) para deixar ela responsiva*/
 
 .faixasuperiorexterna{
-    display: grid;
+    display: flex;
    background-color: rgb(19, 18, 18);
-   grid-column-start: auto;
-   height: 70px;
-   width: 1000px;
-   
-    
+   height: 45px;
+   width: 1350px;  
+   align-items: center;
+}
+
+.objetodafaixasuperior{
+    justify-content: left;
+}
+
+#caixadepesquisa{
+    align-self: center;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 16px;
+    position: relative;
+}
+
+#botaodepesquisa{
+    border: solid 1px white;
+}
+
+#centralizarcaixadepesquisa{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    width: 1000px;
+    height: 50px;
 }
